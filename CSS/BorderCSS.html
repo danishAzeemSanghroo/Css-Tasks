@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Class and Id</title>
+		<style type="text/css">
+			#one
+			{
+				background-color:red;
+				
+			}
+			#two
+			{
+				background-color:green;
+			}
+			#three
+			{
+				background-color:blue;
+				<!--TopBottom px LeftRight px-->
+				<!--Top px right px bottom px left px (clockwise)-->
+			}	
+			.common{
+				width:200px;
+				height:300px;
+				border-style:ridge solid dotted dashed;
+				border-color:blue;
+				border-radius:100px;
+			<!--	border:10px Yellow dashed;-->
+			<!--	border:10px Yellow solid; -->
+			}	
+			<!--body{
+				margin:0;
+				padding:0;-->
+			}
+			p{
+				font-size:200%;
+				font-family:"verdana", Times, serif;<!--web safe fonts-->
+				font-weight:bold;
+				font-style:italic;
+				<!--text-decoration:underline;-->
+				margin:0;
+				padding:0;
+			}
+			a{
+				text-decoration:none;
+			}
+			a:hover{
+				text-decoration:underline;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="one" class="common">
+		<p  >this is paragraph where we will use first class<span style="text-decoration:underline">this is span</span></p>
+		<a href="www.google.com">this is google link</a>
+		
+	</div>
+	<div id="two" class="common">
+		<p  >this is paragraph where we will use first class</p>
+		<p>this is paragraph where we will use second class</p>
+	</div>
+	<div id="three" class="common">
+		<p  >this is paragraph where we will use first class</p>
+		<p>this is paragraph where we will use second class</p>
+	</div>	
+	</body>
+</html>
